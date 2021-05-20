@@ -21,4 +21,11 @@ public class TestContador {
         Contador test = new Contador(10);
         assertEquals(10, test.getValorLimite());
     }
+
+    @Test
+    public void testConstructor3P() {
+        Contador test = new Contador(1,1,10);
+        int suma = test.getValorInicial() + test.getIncremento() + test.getValorLimite();
+        assertEquals(12, suma);
+    }
 }
