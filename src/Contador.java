@@ -19,9 +19,15 @@ public class Contador {
         incremento = 1;
         this.valorLimite = valorLimite;
     }
+
+    public Contador(int valorInicial, int incremento, int valorLimite) {
+        this.valorInicial = valorInicial;
+        this.incremento = incremento;
+        this.valorLimite = valorLimite;
+    }
     
 // Getters & Setters
-    
+
     public int getValorInicial() {
         return valorInicial;
     }
