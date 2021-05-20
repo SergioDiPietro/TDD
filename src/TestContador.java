@@ -9,4 +9,10 @@ public class TestContador {
         Contador test = new Contador();
         assertNotNull(test);
     }
+
+    @Test
+    public void testConstructor() {
+        Contador test = new Contador(0,1,10);
+        assertNotNull(test);
+    }
 }
