@@ -74,4 +74,8 @@ public class Contador {
             setValorActual(getValorInicial());
         }  
     }
+
+    public void resetearContador() {
+        setValorActual(getValorInicial());
+    }
 }
