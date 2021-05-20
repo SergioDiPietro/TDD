@@ -5,18 +5,21 @@ public class Contador {
     private int valorInicial;
     private int incremento;
     private int valorLimite;
+    private int valorActual;
     
 // Constructores
     
     public Contador() {
         valorInicial = 0;
         incremento = 1;
+        valorActual = valorInicial;
         System.out.println("El límite debe ser especificado siempre.");
     }
 
     public Contador(int valorLimite) {
         valorInicial = 0;
         incremento = 1;
+        valorActual = valorInicial;
         this.valorLimite = valorLimite;
     }
 
@@ -24,6 +27,7 @@ public class Contador {
         this.valorInicial = valorInicial;
         this.incremento = incremento;
         this.valorLimite = valorLimite;
+        valorActual = valorInicial;
     }
     
 // Getters & Setters
