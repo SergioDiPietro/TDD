@@ -8,7 +8,12 @@ public class Contador {
     
 // Constructores
     
-
+   
+    public Contador() {
+        valorInicial = 0;
+        incremento = 1;
+        System.out.println("El límite debe ser especificado siempre.");
+    }
     
 // Getters & Setters
     
