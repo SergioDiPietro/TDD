@@ -28,11 +28,4 @@ public class TestContador {
         int suma = test.getValorInicial() + test.getIncremento() + test.getValorLimite();
         assertEquals(12, suma);
     }
-
-    @Test
-    public void testIncrementarContador() {
-        Contador test = new Contador(1,1,10);
-        
-        assertEquals(2, test.getValorInicial());
-    }
 }

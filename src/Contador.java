@@ -55,6 +55,14 @@ public class Contador {
     public void setValorLimite(int valorLimite) {
         this.valorLimite = valorLimite;
     }
+
+    public int getValorActual() {
+        return valorActual;
+    }
+
+    public void setValorActual(int valorActual) {
+        this.valorActual = valorActual;
+    }
     
 // Métodos
         
