@@ -6,7 +6,7 @@ public class TestContador {
 
     @Test
     public void testObjetoCreado() {
-        Contador test = new Contador();
+        Contador test = new Contador(0,1,10);
         assertNotNull(test);
     }
 
