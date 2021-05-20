@@ -8,11 +8,7 @@ public class Contador {
     
 // Constructores
     
-    public Contador(int valorInicial, int incremento, int valorLimite) {
-        this.valorInicial = valorInicial;
-        this.incremento = incremento;
-        this.valorLimite = valorLimite;
-    }
+
     
 // Getters & Setters
     

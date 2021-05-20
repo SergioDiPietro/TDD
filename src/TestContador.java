@@ -6,13 +6,13 @@ public class TestContador {
 
     @Test
     public void testObjetoCreado() {
-        Contador test = new Contador(0,1,10);
+        Contador test = new Contador();
         assertNotNull(test);
     }
 
     @Test
-    public void testConstructor() {
-        Contador test = new Contador(0,1,10);
-        assertNotNull(test);
+    public void testConstructorVacio() {
+        Contador test = new Contador();
+        assertEquals(1, test.getIncremento());
     }
 }
