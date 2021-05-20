@@ -38,9 +38,9 @@ public class TestContador {
 
     @Test
     public void testContadorDesbordado() {
-        Contador test = new Contador(0,5,10);
+        Contador test = new Contador(1,5,10);
         test.incrementarContador();
         test.incrementarContador();
-        assertEquals(0, test.getValorActual());
+        assertEquals(1, test.getValorActual());
     }
 }

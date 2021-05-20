@@ -71,6 +71,7 @@ public class Contador {
             setValorActual(getValorActual() + getIncremento());
         } else {
             System.out.println("Límite superado");
+            setValorActual(getValorInicial());
         }  
     }
 }
