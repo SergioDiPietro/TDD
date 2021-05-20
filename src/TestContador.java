@@ -43,4 +43,11 @@ public class TestContador {
         test.incrementarContador();
         assertEquals(1, test.getValorActual());
     }
+
+    @Test
+    public void testValorActualContador() {
+        Contador test = new Contador(1,2,10);
+        test.incrementarContador();
+        assertEquals(3, test.getValorActual());
+    }
 }
