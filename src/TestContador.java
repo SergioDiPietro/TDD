@@ -35,4 +35,12 @@ public class TestContador {
         test.incrementarContador();
         assertEquals(2, test.getValorActual());
     }
+
+    @Test
+    public void testContadorDesbordado() {
+        Contador test = new Contador(0,5,10);
+        test.incrementarContador();
+        test.incrementarContador();
+        assertEquals(0, test.getValorActual());
+    }
 }
