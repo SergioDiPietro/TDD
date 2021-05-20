@@ -50,4 +50,12 @@ public class TestContador {
         test.incrementarContador();
         assertEquals(3, test.getValorActual());
     }
+
+    @Test
+    public void testResetearContador() {
+        Contador test = new Contador(1,5,10);
+        test.incrementarContador();
+        test.resetearContador();
+        assertEquals(1, test.getValorActual());
+    }
 }
