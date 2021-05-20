@@ -15,4 +15,10 @@ public class TestContador {
         Contador test = new Contador();
         assertEquals(1, test.getIncremento());
     }
+
+    @Test
+    public void testConstructor1P() {
+        Contador test = new Contador(10);
+        assertEquals(10, test.getValorLimite());
+    }
 }
