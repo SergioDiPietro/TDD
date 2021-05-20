@@ -66,6 +66,11 @@ public class Contador {
     
 // Métodos
         
-
-
+    public void incrementarContador() {
+        if ((getValorActual() + getIncremento()) <= getValorLimite()) {
+            setValorActual(getValorActual() + getIncremento());
+        } else {
+            System.out.println("Límite superado");
+        }  
+    }
 }
